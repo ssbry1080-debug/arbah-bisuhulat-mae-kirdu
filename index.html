@@ -1,104 +1,106 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>اربح بسهولة مع كردو عفرين</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اربح بسهولة مع كردو عفرين</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
 
-<div class="overlay">
+    <div class="overlay">
 
-<div class="top">
+        <div class="hero">
 
-<div class="logo">
-<img src="assets/logo.png" alt="logo">
-</div>
+            <div class="logo">
+                <img src="assets/logo.png" alt="شعار الموقع">
+            </div>
 
-<h1>
-اربح بسهولة مع
-<span>كردو عفرين</span>
-</h1>
+            <h1>
+                اربح بسهولة مع
+                <span>كردو عفرين</span>
+            </h1>
 
-<p>
-منصة موثوقة للربح والإحالات
-</p>
+            <p>منصة موثوقة للربح والإحالات</p>
 
-</div>
+        </div>
 
-<div class="login-card">
+        <div class="login-card">
 
-<h2>مرحباً بك مجدداً</h2>
+            <h2>مرحباً بك مجدداً</h2>
 
-<div class="input-box">
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="البريد الإلكتروني">
+            </div>
 
-<i class="fa-solid fa-envelope"></i>
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input id="password" type="password" placeholder="كلمة المرور">
+                <i class="fa-solid fa-eye eye" onclick="togglePassword()"></i>
+            </div>
 
-<input
-type="email"
-placeholder="البريد الإلكتروني">
+            <div class="options">
 
-</div>
+                <label>
+                    <input type="checkbox">
+                    تذكرني
+                </label>
 
-<div class="input-box">
+                <a href="#">نسيت كلمة المرور؟</a>
 
-<i class="fa-solid fa-lock"></i>
+            </div>
 
-<input
-type="password"
-id="password"
-placeholder="كلمة المرور">
+            <button class="login-btn">
+                تسجيل الدخول
+            </button>
 
-<i
-class="fa-solid fa-eye eye"
-onclick="togglePassword()">
-</i>
+            <button class="register-btn">
+                إنشاء حساب جديد
+            </button>
 
-</div>
+        </div>
 
-<div class="options">
+        <div class="features">
 
-<label>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <p>آمن</p>
+            </div>
 
-<input type="checkbox">
+            <div>
+                <i class="fa-solid fa-headset"></i>
+                <p>دعم 24/7</p>
+            </div>
 
-تذكرني
+            <div>
+                <i class="fa-solid fa-coins"></i>
+                <p>أرباح يومية</p>
+            </div>
 
-</label>
+        </div>
 
-<a href="#">
+        <div class="languages">
+            <button class="active">العربية</button>
+            <button>کوردی</button>
+        </div>
 
-نسيت كلمة المرور؟
+        <footer>
+            © 2025 كردو عفرين - جميع الحقوق محفوظة
+        </footer>
 
-</a>
+    </div>
 
-</div>
+    <script src="script.js"></script>
 
-<button class="login">
+</body>
 
-تسجيل الدخول
-
-</button>
-
-<button class="register">
-
-إنشاء حساب جديد
-
-</button>
-
-</div>
-
-<div class="features">
-
-<div>
-
-<i class="
+</html>
