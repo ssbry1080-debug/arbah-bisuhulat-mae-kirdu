@@ -1,106 +1,196 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>اربح بسهولة مع كردو عفرين</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>اربح بسهولة مع كردو عفرين</title>
 
-    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Cairo',sans-serif;
+}
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+body{
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');
+background-size:cover;
+background-position:center;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.container{
+width:100%;
+max-width:450px;
+}
+
+.card{
+background:#fff;
+border-radius:25px;
+padding:30px;
+box-shadow:0 15px 40px rgba(0,0,0,.25);
+}
+
+.logo{
+text-align:center;
+margin-bottom:20px;
+}
+
+.logo-circle{
+width:90px;
+height:90px;
+background:#0f4c3a;
+border-radius:50%;
+margin:auto;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:40px;
+color:#d4af37;
+font-weight:bold;
+}
+
+h1{
+text-align:center;
+color:#0f4c3a;
+margin-top:15px;
+font-size:32px;
+}
+
+.subtitle{
+text-align:center;
+color:#777;
+margin-bottom:25px;
+}
+
+.input-box{
+margin-bottom:15px;
+}
+
+.input-box input{
+width:100%;
+padding:14px;
+border:1px solid #ddd;
+border-radius:12px;
+font-size:16px;
+}
+
+.options{
+display:flex;
+justify-content:space-between;
+margin:15px 0;
+font-size:14px;
+}
+
+.options a{
+text-decoration:none;
+color:#0f4c3a;
+}
+
+.login-btn{
+width:100%;
+padding:14px;
+background:#0f4c3a;
+color:white;
+border:none;
+border-radius:12px;
+font-size:18px;
+cursor:pointer;
+}
+
+.register-btn{
+width:100%;
+padding:14px;
+background:white;
+color:#d4af37;
+border:2px solid #d4af37;
+border-radius:12px;
+font-size:18px;
+cursor:pointer;
+margin-top:12px;
+}
+
+.features{
+display:flex;
+justify-content:space-between;
+margin-top:25px;
+text-align:center;
+font-size:14px;
+color:#555;
+}
+
+.features div{
+flex:1;
+}
+
+.footer{
+text-align:center;
+margin-top:20px;
+color:#999;
+font-size:13px;
+}
+</style>
 </head>
-
 <body>
 
-    <div class="overlay">
+<div class="container">
 
-        <div class="hero">
+<div class="card">
 
-            <div class="logo">
-                <img src="assets/logo.png" alt="شعار الموقع">
-            </div>
+<div class="logo">
+<div class="logo-circle">K</div>
+</div>
 
-            <h1>
-                اربح بسهولة مع
-                <span>كردو عفرين</span>
-            </h1>
+<h1>اربح بسهولة مع كردو عفرين</h1>
 
-            <p>منصة موثوقة للربح والإحالات</p>
+<p class="subtitle">
+منصة موثوقة للربح والإحالات
+</p>
 
-        </div>
+<div class="input-box">
+<input type="email" placeholder="البريد الإلكتروني">
+</div>
 
-        <div class="login-card">
+<div class="input-box">
+<input type="password" placeholder="كلمة المرور">
+</div>
 
-            <h2>مرحباً بك مجدداً</h2>
+<div class="options">
+<a href="#">نسيت كلمة المرور؟</a>
+<label>
+<input type="checkbox">
+تذكرني
+</label>
+</div>
 
-            <div class="input-box">
-                <i class="fa-solid fa-envelope"></i>
-                <input type="email" placeholder="البريد الإلكتروني">
-            </div>
+<button class="login-btn">
+تسجيل الدخول
+</button>
 
-            <div class="input-box">
-                <i class="fa-solid fa-lock"></i>
-                <input id="password" type="password" placeholder="كلمة المرور">
-                <i class="fa-solid fa-eye eye" onclick="togglePassword()"></i>
-            </div>
+<button class="register-btn">
+إنشاء حساب جديد
+</button>
 
-            <div class="options">
+<div class="features">
+<div>🔒<br>آمن</div>
+<div>🎧<br>دعم 24/7</div>
+<div>💰<br>أرباح يومية</div>
+</div>
 
-                <label>
-                    <input type="checkbox">
-                    تذكرني
-                </label>
+<div class="footer">
+© 2025 كردو عفرين
+</div>
 
-                <a href="#">نسيت كلمة المرور؟</a>
-
-            </div>
-
-            <button class="login-btn">
-                تسجيل الدخول
-            </button>
-
-            <button class="register-btn">
-                إنشاء حساب جديد
-            </button>
-
-        </div>
-
-        <div class="features">
-
-            <div>
-                <i class="fa-solid fa-shield-halved"></i>
-                <p>آمن</p>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-headset"></i>
-                <p>دعم 24/7</p>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-coins"></i>
-                <p>أرباح يومية</p>
-            </div>
-
-        </div>
-
-        <div class="languages">
-            <button class="active">العربية</button>
-            <button>کوردی</button>
-        </div>
-
-        <footer>
-            © 2025 كردو عفرين - جميع الحقوق محفوظة
-        </footer>
-
-    </div>
-
-    <script src="script.js"></script>
+</div>
+</div>
 
 </body>
-
 </html>
